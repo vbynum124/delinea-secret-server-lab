@@ -1,0 +1,22 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pfx
+*.p12
+*.pem
+credentials*
+secrets.local*
+# Backups, databases, installers, and runtime output
+*.bak
+*.sql
+*.zip
+*.msi
+*.exe
+*.iso
+*.log
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
